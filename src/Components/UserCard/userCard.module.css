@@ -1,0 +1,59 @@
+.mainBox {
+  display: flex;
+  justify-content: center;
+}
+
+.cardBox {
+  /* border: 1px solid black; */
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img {
+  width: 268px;
+  height: 309px;
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 1px solid rgb(163, 161, 161);
+}
+
+.cardBox img {
+  /* margin: 10px auto; */
+  width: 263px;
+  height: 304px;
+  border-radius: 50%;
+
+}
+
+.userDetails li {
+  list-style: none;
+    padding: 20px 10px;
+    font-weight: 700;
+    color: #000;
+    border-bottom: 2px solid #bbbbbb;
+}
+.userDetails li span{
+  color: rgb(2, 2, 46);
+  font-weight: 400;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.inputBox input {
+  border: 2px solid rgb(3, 11, 46);
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+a:focus,
+a:hover,
+a{
+  text-decoration: none !important;
+  color: #000;
+}
